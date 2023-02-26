@@ -12,4 +12,4 @@
 # 52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 #
 
-* * * * * lexicon easyname --name $domainname --content "$(curl -s icanhazip.com)" --ttl 3600 --auth-username $username --auth-password $password update $domainname Agit 
+* * * * * lexicon easyname --name $domainname --content "$(curl -s icanhazip.com)" --ttl 3600 --auth-username $username --auth-password $password update $domainname A 
